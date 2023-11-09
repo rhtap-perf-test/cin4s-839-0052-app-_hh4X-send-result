@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-luzj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0052-tenant/cin4s-839-0052-app/devfile-sample-luzj@sha256:3bc5e287396de985276766234acdec27b7c77f8bf04ff50b2833f85be9aee725
+        name: my-nodejs
+        resources: {}
+status: {}
