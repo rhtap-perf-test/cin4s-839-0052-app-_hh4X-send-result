@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-luzj
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0052-tenant/cin4s-839-0052-app/devfile-sample-luzj@sha256:3bc5e287396de985276766234acdec27b7c77f8bf04ff50b2833f85be9aee725
         name: my-nodejs
         ports:
         - containerPort: 3001
